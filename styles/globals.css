@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-gradient-to-r from-zinc-900 to-zinc-600 text-white;
+}
+.container {
+  @apply w-[90%] mx-auto lg:w-[85%];
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary rounded-xl;
+}
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #000000;
+  opacity: 1;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #ffffff;
+  width: 24px;
+  height: 8px;
+  border-radius: 8px;
+}

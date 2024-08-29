@@ -1,0 +1,51 @@
+export const projectData = [
+  {
+    image: "/img/ecommerce.png",
+    title: "Ecommerce Cart",
+    desc: "Implementing state management with Provider to handle dynamic favorites and cart functionalities seamlessly in my eCommerce Flutter application.",
+    liveUrl: "https://tiktik-world.vercel.app",
+    repo: "https://github.com/souravs3/Ecommerce_cart.git",
+  },
+  {
+    image: "/img/news.png",
+    title: "News App",
+    desc: "Using GetX for state management and integrating News API, my Flutter app delivers real-time updates with a beautifully crafted UI.",
+    liveUrl: "https://zkfarmers.io/",
+    repo: "https://github.com/souravs3/News_app.git",
+  },
+  {
+    image: "/img/weathers.png",
+    title: "Weather App",
+    desc: "Building a weather app with Provider for state management, fetching real-time data from the OpenWeather API,",
+    liveUrl: "https://ivorytusk.finance/",
+    repo: "https://github.com/souravs3/Weather_App.git",
+  },
+  {
+    image: "/img/ima.png",
+    title: "Plant App UI",
+    desc: "Clean and minimalist UI, focusing on delivering a serene and user-friendly experience that highlights the beauty of nature and plant care.",
+    liveUrl: "https://netflix-clone-roan-nine.vercel.app/",
+    repo: "https://github.com/gift56/Netflix_Clone",
+  },
+  {
+    image: "/img/fruitss.png",
+    title: "Fruits App - UI",
+    desc: "Clean and minimalist UI, focusing on delivering a serene and user-friendly experience that highlights the beauty of nature and plant care",
+    liveUrl: "https://fiverr-web.netlify.app/",
+    repo: "https://github.com/souravs3/provider_fruit.git",
+  },
+  // {
+  //   image: "/img/image6.png",
+  //   title: "Colhacklabs",
+  //   desc: "A website that promotes Grow with Innovative Product Development, High-End Web Design, and Effective Branding.",
+  //   liveUrl: "https://colhacklab.com/",
+  //   repo: "https://colhacklab.com/",
+  // },
+  // {
+  //   image: "/img/image7.png",
+  //   title: "Akada",
+  //   desc: "Streamline teaching, engage students, and boost outcomes with our user-friendly, all-in-one digital learning solution.",
+  //   liveUrl: "https://akada.colhacklab.com/",
+  //   repo: "https://akada.colhacklab.com/",
+  // },
+];
