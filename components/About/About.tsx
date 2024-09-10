@@ -3,6 +3,7 @@ import { FaReact, FaLaptopCode } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { TfiRulerPencil } from "react-icons/tfi";
 import { motion } from "framer-motion";
+import { FaDatabase, FaCloud  } from 'react-icons/fa'; 
 
 const About = () => {
   const data = [
@@ -24,7 +25,7 @@ const About = () => {
       ),
     },
     {
-      icon: TbBrandJavascript,
+      icon: FaDatabase,
       title: (
         <span>
           Local Databases
@@ -33,7 +34,7 @@ const About = () => {
       ),
     },
     {
-      icon: FaReact,
+      icon: FaCloud ,
       title: (
         <span>
           Rest Api,

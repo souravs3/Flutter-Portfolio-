@@ -40,9 +40,9 @@ const Header = () => {
       >
         About Me
       </ScrollLink>
-      <div className="border-2 border-blue-500 w-10 h-10 font-styleFont text-[38px] items-center justify-center rounded-full select-none font-semibold hidden md:flex">
+      {/* <div className="border-2 border-blue-500 w-10 h-10 font-styleFont text-[38px] items-center justify-center rounded-full select-none font-semibold hidden md:flex">
         E
-      </div>
+      </div> */}
       <div
         onClick={() => setMobileNav(true)}
         className="border-2 border-blue-500 w-10 h-10 font-styleFont text-[38px] flex items-center justify-center rounded-full select-none font-semibold md:hidden"

@@ -4,7 +4,7 @@ import { About, Contact, Hero, Projects } from "@/components";
 
 const Homepage = () => {
   return (
-    <LandingpageLayout pageTitle="I create seamless web experiences for end-users">
+    <LandingpageLayout pageTitle=" ">
       <Hero />
       <About />
       <Projects />
